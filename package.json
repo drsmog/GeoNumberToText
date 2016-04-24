@@ -1,0 +1,25 @@
+{
+  "name": "geonumbertotext",
+  "version": "1.0.0",
+  "description": "convert number to georgian text",
+  "main": "geonumbertotext.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drsmog/GeoNumberToText.git"
+  },
+  "keywords": [
+    "text",
+    "convert",
+    "geo",
+    "number"
+  ],
+  "author": "smog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drsmog/GeoNumberToText/issues"
+  },
+  "homepage": "https://github.com/drsmog/GeoNumberToText#readme"
+}
