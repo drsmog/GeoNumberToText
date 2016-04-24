@@ -28,3 +28,10 @@ Install
 
 > npm install geonumbertotext
 
+
+```
+var convertor = require('geonumbertotext');
+
+var result = convertor.convertNumberToText('123456789123456789123456789123456789123456789123456789123456789123');
+```
+
