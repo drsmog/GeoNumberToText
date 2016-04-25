@@ -5,18 +5,18 @@
 module.exports = {
     convertNumberToText: buildGeoString
 };
-
-var fs = require('fs');
-
+//
+//var fs = require('fs');
+//
 //var result  = buildGeoString('123456789123456789123456789123456789123456789123456789123456789123');
-var result  = buildGeoString('396745');
-
-fs.writeFile('test.txt',result,function(err){
-    if(err)
-       return console.error(err);
-
-    console.log('Done');
-});
+////var result  = buildGeoString('396745');
+//
+//fs.writeFile('test.txt',result,function(err){
+//    if(err)
+//       return console.error(err);
+//
+//    console.log('Done');
+//});
 
 
 

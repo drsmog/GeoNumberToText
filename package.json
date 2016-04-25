@@ -1,6 +1,6 @@
 {
   "name": "geonumbertotext",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "convert number to georgian text",
   "main": "geonumbertotext.js",
   "scripts": {
