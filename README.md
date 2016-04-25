@@ -30,8 +30,8 @@ Install
 
 
 ```
-var convertor = require('geonumbertotext');
+var converter = require('geonumbertotext');
 
-var result = convertor.convertNumberToText('123456789123456789123456789123456789123456789123456789123456789123');
+var result = converter.convertNumberToText('123456789123456789123456789123456789123456789123456789123456789123');
 ```
 

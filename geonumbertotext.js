@@ -6,17 +6,17 @@ module.exports = {
     convertNumberToText: buildGeoString
 };
 
-//var fs = require('fs');
-//
-////var result  = buildGeoString('123456789123456789123456789123456789123456789123456789123456789123');
-//var result  = buildGeoString('-165');
-//
-//fs.writeFile('test.txt',result,function(err){
-//    if(err)
-//       return console.error(err);
-//
-//    console.log('Done');
-//});
+var fs = require('fs');
+
+//var result  = buildGeoString('123456789123456789123456789123456789123456789123456789123456789123');
+var result  = buildGeoString('396745');
+
+fs.writeFile('test.txt',result,function(err){
+    if(err)
+       return console.error(err);
+
+    console.log('Done');
+});
 
 
 
@@ -63,7 +63,7 @@ function decryptTwoDigit(number){
     switch(t){
         case 2:
         case 3:{
-            prefix = 'ოცდა';
+            prefix = 'ოც';
             break;
         }
         case 4:
@@ -104,14 +104,14 @@ function decryptTwoDigit(number){
 
 function decryptThirdDigit(number){
 
-    if(number === 1) return 'ას';
+    if(number === 1) return 'ას ';
 
     var prefix = primitiveNumberToText(number);
 
     if(prefix.substr(-1) === 'ი')
-        return prefix.substr(0,prefix.length-1) + 'ას';
+        return prefix.substr(0,prefix.length-1) + 'ას ';
 
-    return prefix + 'ას';
+    return prefix + 'ას ';
 }
 
 function decryptChunk(number){
